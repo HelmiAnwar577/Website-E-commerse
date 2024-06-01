@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?
+    family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!----header--->
+    <header>
+        <a href="#" class="logo">RX-GT</a>
+
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#featured">Product</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#review">Review</a></li>
+            <li><a href="#javascript">Javascript</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="header-icons">
+            <a href='#' id='whatsapp-link'><i class='bx bxl-whatsapp'></i></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <!----home--->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Toko Baju <br><span>Vernandes</span></h1>
+            <p>Kami menyediakan berbagai macam baju khusus laki-laki</p>
+            <a href="#featured" class="btn">View Collection</a>
+        </div>
+    </section>
+
+    <!---featured--->
+    <section class="featured" id="featured">
+        <div class="center-text">
+            <h2>Our Product</h2>
+        </div>
+
+        <div class="featured-content">
+            <div class="row">
+                <img src="img/feal1.jpg">
+                <div class="fea-text">
+                    <h5>Jacket</h5>
+                    <p>10 items</p>
+                </div>
+                <div class="arrow">
+                    <a href="#"><i class='bx bx-right-arrow-alt' ></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="img/feal2.jpg">
+                <div class="fea-text">
+                    <h5>Shirt</h5>
+                    <p>10 items</p>
+                </div>
+                <div class="arrow">
+                    <a href="#"><i class='bx bx-right-arrow-alt' ></i></a>
+                </div>
+            </div>
+
+        <div class="row">
+            <img src="img/feal3.jpg">
+            <div class="fea-text">
+                <h5>Polo</h5>
+                <p>10 items</p>
+            </div>
+            <div class="arrow">
+                <a href="#"><i class='bx bx-right-arrow-alt' ></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="img/feal4.jpg">
+            <div class="fea-text">
+                <h5>T-Shirt</h5>
+                <p>10 items</p>
+            </div>
+            <div class="arrow">
+                <a href="#"><i class='bx bx-right-arrow-alt' ></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="img/feal5.jpg">
+            <div class="fea-text">
+                <h5>Hoodie</h5>
+                <p>10 items</p>
+            </div>
+            <div class="arrow">
+                <a href="#"><i class='bx bx-right-arrow-alt' ></i></a>
+            </div>
+        </div>
+
+            <div class="row">
+                <img src="img/feal6.jpg">
+                <div class="fea-text">
+                    <h5>Singlet</h5>
+                    <p>10 items</p>
+                </div>
+                <div class="arrow">
+                    <a href="#"><i class='bx bx-right-arrow-alt' ></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!---cta--->
+    <section class="cta">
+        <div class="cta-text">
+            <h6>SUMMER ON SALE</h6>
+            <h4>20% OFF <br> NEW ARRIVAL</h4>
+            <a href="https://wa.me/6285385022626?text=Hallo,%20saya%20ingin%20membeli%20pakaian%20anda." class="btn">Shop Now</a>
+        </div>
+    </section>
+
+      <!----about--->
+      <section class="about" id="about">
+        <div class="about__container container grid">
+            <div class="about__data">
+                <h2 class="about_title section_title">Tentang Saya</h2>
+    
+                <p class="about__description">
+                    Saya Yandi Sulistiandi dengan NIM 2203040196. Saat ini saya tengah
+                    kuliah semester 3 di Universitas Muhammadiyah Purwokerto, prodi
+                    Teknik Informatika.<br />
+                    Saya menyusun website ini dengan tujuan untuk melatih pemahaman
+                    saya mengenai mata kuliah Pemrograman Web. Adapun tujuan lainnya
+                    yaitu untuk memenuhi tugas akhir UAS mata kuliah Pemrograman Web.
+                </p>
+                
+            </div>
+    
+            <div class="about__images">
+                <img src="img/pp.png" alt="image" class="about__img-1" />
+            </div>
+        </div>
+        <button class="sigung" id="openModalBtn">Pernyataan</button>
+
+  <div id="fumodal" class="modal">
+    <span class="close" id="closeModalBtn">&times;</span>
+    <div class="modal-content">
+      <img id="modalImage" src="" alt="Modal Image">
+      
+    </div>
+  </div>
+    </section>
+
+    
+   
+    <!----brand--->
+    <section class="brand">
+        <div class="brand-content">
+            <div class="main">
+                <img src="img/brand1.png">
+            </div>
+
+            <div class="main">
+                <img src="img/brand2.png">
+            </div>
+
+            <div class="main">
+                <img src="img/brand3.png">
+            </div>
+
+            <div class="main">
+                <img src="img/brand4.png">
+            </div>
+
+            <div class="main">
+                <img src="img/brand5.png">
+            </div>
+
+            <div class="main">
+                <img src="img/brand6.png">
+            </div>
+
+            <div class="main">
+                <img src="img/brand7.png">
+            </div>
+
+            <div class="main">
+                <img src="img/brand8.png">
+            </div>
+            
+        </div>
+    </section>
+
+
+    <!--Review-->
+
+    <div class="review" id="review">
+        <h1>Customer's<span>review</span></h1>
+        
+        <div class="review_box">
+            <div class="review_card">
+                <div class="card_top">
+                    <div class="profile">
+
+                        <div class="profile_image">
+                            <img src="img/review.jpg">
+                        </div>
+
+                        <div class="name">
+                            <strong>☬ᶜᴿᴬᶻᵞkíllєr☬</strong>
+
+                            <div class="like">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        Baju nya bagus banget, pengiriman sangat cepat, Hayuuk palpalepale 🥶🥶🥶
+                    </p>
+                </div>
+            </div>   
+
+            <div class="review_card">
+                <div class="card_top">
+                    <div class="profile">
+
+                        <div class="profile_image">
+                            <img src="img/review1.jpg">
+                        </div>
+
+                        <div class="name">
+                            <strong>Joeseph Joestar</strong>
+
+                            <div class="like">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        Oh My God. This outfit is very comfortable to wear every time. I gonna rate its 9/11
+                    </p>
+                </div>
+            </div>   
+
+            <div class="review_card">
+                <div class="card_top">
+                    <div class="profile">
+
+                        <div class="profile_image">
+                            <img src="img/review2.jpg">
+                        </div>
+
+                        <div class="name">
+                            <strong>Manusia</strong>
+
+                            <div class="like">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        Barang sangat bagus. Pengiriman cepat. Saya rating 10/10 
+                    </p>
+                </div>
+            </div>   
+
+        </div>
+
+    </div>
+
+     <!----Javascript--->
+     <section class="javascript" id="javascript">
+        <div class="javascript-text">
+            <h1>Javascript<br></h1>
+            <p>Javascript adalah bahasa pemrograman yang digunakan pada web development. Javascript yang saya gunakan yaitu saat kita mengeklik ikon whatsapp diatas maka kita akan diarahkan ke whatsapp app dan siap berkominkasi dengan saya.
+            </p>
+        </div>
+    </section>
+
+    <!----contact---->
+    <section class="contact" id="contact">
+        <div class="main-contact">
+            <h3>RX-GT</h3>
+            <h5>Let's Connect With Us</h5>
+            <div class="icons">
+                <a href="https://www.facebook.com/profile.php?id=100011345796781" target="_blank"><i class='bx bxl-facebook-square'></i></a>
+                <a href="https://www.instagram.com/helmi_anwar2002" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.tiktok.com/@helmianwar70?_t=8j1nLdy0eaQ&_r=1" target="_blank"><i class='bx bxl-tiktok'></i></a>
+            </div>
+        </div>
+    
+    
+
+        <div class="main-contact">
+            <h3>Explore</h3>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#featured">Featured</a></li>
+            <li><a href="#new">New</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div>
+
+        <div class="main-contact">
+            <h3>Our Services</h3>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Free Shipping</a></li>
+            <li><a href="#">Gift C=rds</a></li>
+        </div>
+
+        <div class="main-contact">
+            <h3>Shopping</h3>
+            <li><a href="#">Clothing</a></li>
+            <li><a href="#">Trending Shoes</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Sale</a></li>
+        </div>
+
+    </section>
+
+    <div class="last-text">
+        <p>Copyright 2024 All right reserved | This website make by Helmi Anwar</p>
+    </div>
+
+    <!----scroll top--->
+    <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!----custom js link--->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
